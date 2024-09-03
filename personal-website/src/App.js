@@ -5,17 +5,33 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hey! 👋 My name is Robert Kang. I study CS + Math at The University of Michigan 〽️
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/rokanq"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github
+        </a>
+        <a
+          className="App-link"
+          href="https://linkedin.com/in/r-kang"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+        <a
+          className="App-link"
+          href="/RobertKang_resume.pdf"
+ 
+          download="RobertKang_resume.pdf"
+        >
+          Resume
         </a>
       </header>
     </div>
