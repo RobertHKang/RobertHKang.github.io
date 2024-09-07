@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import HomePage from './homePage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+    <div className="App">        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+
+      {/* <header className="App-header">
         <p>
-          Hey! 👋 My name is Robert Kang. I study CS + Math at The University of Michigan 〽️
+          Hey! 👋 My name is Robert Kang. I study CS + Math @ The University of Michigan 〽️
         </p>
         <a
           className="App-link"
@@ -33,7 +34,8 @@ function App() {
         >
           Resume
         </a>
-      </header>
+      </header> */}
+      <HomePage/>
     </div>
   );
 }
